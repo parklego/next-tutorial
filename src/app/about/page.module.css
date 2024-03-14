@@ -9,14 +9,15 @@
 
 .img {
   object-fit: cover;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 .imgText {
   position: absolute;
   bottom: 10px;
   left: 10px;
   padding: 5px;
-  background: gray;
+  background: #1a4c33;
+  opacity: 0.9;
   color: white;
 
   display: flex;

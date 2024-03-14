@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   gap: 100px;
+  flex-wrap: wrap;
 }
 
 .item {
@@ -23,6 +24,7 @@
 
 .img {
   width: 100%;
+
   height: 500px;
   object-fit: cover;
   animation: move 2s infinite ease alternate;

@@ -7,14 +7,7 @@ const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image
-          className={styles.img}
-          fill={true}
-          src={
-            "https://ksr-ugc.imgix.net/assets/027/236/165/d887e87fc5b9d3980c72f33b57d3b599_original.png?ixlib=rb-4.1.0&crop=faces&w=1552&h=873&fit=crop&v=1573910710&auto=format&frame=1&q=92&s=3191336d272cee01c8738d2ce7997b3d"
-          }
-          alt=""
-        />
+        <Image className={styles.img} fill={true} src={"/about.png"} alt="" />
         <div className={styles.imgText}>
           <h1 className={styles.imgTitle}>
             Laborum elit do culpa amet cupidatat tempor ullamco elit.
@@ -43,6 +36,9 @@ const About = () => {
             elit esse cillum duis. Commodo incididunt enim anim irure ipsum
             irure anim nostrud et cillum consequat id minim. Amet nisi
             exercitation proident dolor anim sint sint est aute culpa.
+            <br />
+            <br />
+            Voluptate est nisi eiusmod fugiat elit ullamco culpa culpa ad nisi.
           </h2>
         </div>
         <div className={styles.item}>
@@ -54,10 +50,28 @@ const About = () => {
             Duis qui aliquip in commodo est mollit enim irure nostrud aliquip
             quis sunt enim.
             <br />
-            <br />- Magna exercitation et ea laborum adipisicing mollit est
-            pariatur dolor cupidatat reprehenderit fugiat fugiat.
-            <br />- Minim ad anim reprehenderit cillum fugiat quis ex
-            adipisicing esse mollit et nostrud.
+            <br />
+            Occaecat officia aute occaecat incididunt laboris est dolor amet
+            ullamco ex ad fugiat pariatur laborum Lorem.
+            <br />
+            <br />
+            1. Sunt ea duis sint proident voluptate elit pariatur aliqua
+            deserunt officia quis aute in.
+            <br />
+            <br />
+            2. Pariatur duis sint officia cupidatat.
+            <br />
+            <br />
+            3. Aliquip minim exercitation velit occaecat laboris eiusmod tempor
+            voluptate culpa exercitation duis ullamco labore laboris veniam.
+            <br />
+            <br />
+            Laboris fugiat exercitation deserunt consequat ut tempor laboris
+            culpa eu eiusmod ex fugiat veniam. Non velit aliquip sit tempor ex
+            consectetur adipisicing dolor velit. Ad adipisicing et esse nisi
+            occaecat cupidatat. Aliquip adipisicing tempor mollit. Minim sit
+            aliquip non sint occaecat commodo ex culpa proident velit voluptate
+            veniam.
           </h2>
           <Button url={"/contact"} text="contact us" />
         </div>
