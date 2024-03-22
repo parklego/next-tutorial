@@ -3,6 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./page.module.css";
 
+export const metadata = {
+  title: "parklego blog",
+  description: "parklego next tutorial",
+};
+
 const getData = async () => {
   const res = await fetch("http://localhost:3000/api/post", {
     cache: "no-cache",
